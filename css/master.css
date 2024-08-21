@@ -1,0 +1,136 @@
+body {
+    background-color: #ffffff;
+    color: black;
+}
+
+#About {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+#Experience {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#Projects {
+    margin-top: 100px;
+    margin-bottom: 25px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+#Contact {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+#Topics {
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+#textTopics {
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#introContainer {
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#introButton {
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-icon img {
+    width: 30px;
+    height: 24px;
+}
+
+#websiteIconsIntro {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.media-body{
+    font-size: 10pt;
+}
+
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+#aboutMeP {
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+}
+
+.card-title, .card-text {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#workIconStuff, #educationIconStuff{
+    width: 325px; /* Match the width of the image */
+    height: 325px; /* Match the height of the image */
+}
+
+.img-fluid.card-img-top {
+    max-height: 150px; /* Ensure the image fits well within the card */
+    object-fit: contain;
+}
+
+#educationIcon, #workIcon {
+    height: 75px;
+    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactButtons {
+    align-items: flex-start;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

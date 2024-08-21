@@ -1,0 +1,128 @@
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: #ffffff;
+        color: black;
+    }
+
+    #About, #Experience, #Projects, #Contact {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #Projects {
+        margin-bottom: 25px;
+        padding-top: 75px;
+        padding-bottom: 50px;
+    }
+
+    #Contact {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #introContainer, #aboutMeP, .card-text, .card-title {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    #About, #Experience, #Projects, #Contact {
+        margin-top: 75px;
+        margin-bottom: 75px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    #Projects {
+        margin-bottom: 20px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    #Contact {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #introContainer, #aboutMeP, .card-text, .card-title {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #educationIcon, #workIcon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .media-body {
+        font-size: 9pt;
+    }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 767px) {
+    #Experience, #Projects, #Contact {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #About {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #Projects {
+        margin-bottom: 15px;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+
+    #Contact {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #introContainer, #aboutMeP, .card-text, .card-title {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #educationIcon, #workIcon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .media-body {
+        font-size: 8pt;
+    }
+}
